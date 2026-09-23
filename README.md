@@ -1,20 +1,18 @@
 # 结界之庭 · Spellgarden
 
-## Unreal Engine 5 · 技能与体验更新
+## Unreal Engine 5 · 护盾视野修复
 
-**v0.7.1 UE5 Preview · Unreal Engine 5.8.3 · Windows x64**
+**v0.7.2 UE5 Preview · Unreal Engine 5.8.3 · Windows x64**
 
-[下载 UE5 Windows 游戏包](https://github.com/chuanyu657-ship-it/spellgarden/releases/download/v0.7.1-ue5-preview/Spellgarden-UE5-v0.7.1-preview-Windows-x64.zip) · [发行说明与校验文件](https://github.com/chuanyu657-ship-it/spellgarden/releases/tag/v0.7.1-ue5-preview)
+[下载 UE5 Windows 游戏包](https://github.com/chuanyu657-ship-it/spellgarden/releases/download/v0.7.2-ue5-preview/Spellgarden-UE5-v0.7.2-preview-Windows-x64.zip) · [发行说明与校验文件](https://github.com/chuanyu657-ship-it/spellgarden/releases/tag/v0.7.2-ue5-preview)
 
-约471 MB，完整解压后打开 `Spellgarden.exe`，无需 Unreal 编辑器。包含第一人称四区探索、法术与脚下魔法阵、装备成长、天赋、制作、委托和家园。
+完整解压后打开 `Spellgarden.exe`，无需 Unreal 编辑器。包含第一人称四区探索、九种法术与脚下魔法阵、装备成长、天赋、制作、委托和家园。
 
-本次修复默认技能未解锁、灵藤落点偏移；新增一次学习并装备、直接交换技能槽、明确施法失败原因、0.35秒衔接、按住火冰攻击、真实星链雷电、元素特效区分，以及可保存的画质设置。兼容修复旧 UE 角色已装配的基础技能，不重置其他进度。
+本版修复护盾挡住第一人称视野：自己保留脚下法阵与淡青边缘提示；受击时边缘短促闪亮，其他视角仍能看见护盾。重复施放刷新同一个盾，耗尽、超时或倒地时清除外观。镜头靠近和进入其他护盾时，盾面平滑退隐，避免内壁遮挡。保留 v0.7.1 的技能解锁修复、技能搭配、连招及画质设置。
 
-成品包通过九技能/输入96、成长41、战斗18、主机22与客机17项原生检查，八张实机截图已目视检查。联机为同机两个独立进程验证；按 M 创建/加入同局域网或虚拟局域网房间，上限四人，朋友都需要 v0.7.1。尚未验证跨电脑公网或四人压力，没有公网大厅或中继。
+成品包完成九技能、成长、战斗与同机双进程联机回归，并目视检查七张护盾专项实机图。按 M 创建/加入同局域网或虚拟局域网房间，上限四人，朋友都需要 v0.7.2。尚未验证跨电脑公网或四人压力，没有公网大厅或中继。
 
 这是 UE5 开发预览：完整骨骼动作、动态环境和部分学院剧情仍待完善；Godot 存档不自动转入 UE，客机成长仅限当前房间。下方 Godot v0.6.0 的功能说明仅对应原版本。旧版下载均保留。
-
-![新版 UE5 技能配置](https://github.com/chuanyu657-ship-it/spellgarden/releases/download/v0.7.1-ue5-preview/UE5-Skills.png)
 
 ---
 
