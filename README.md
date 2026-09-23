@@ -1,4 +1,22 @@
-# 结界之庭 · Spellgarden v0.6.0
+# 结界之庭 · Spellgarden
+
+## Unreal Engine 5 迁移试玩版
+
+**v0.7.0 UE5 Preview · Unreal Engine 5.8.3 · Windows x64**
+
+[下载 UE5 Windows 试玩包](https://github.com/chuanyu657-ship-it/spellgarden/releases/download/v0.7.0-ue5-preview/Spellgarden-UE5-v0.7.0-preview-Windows-x64.zip) · [发行说明与校验文件](https://github.com/chuanyu657-ship-it/spellgarden/releases/tag/v0.7.0-ue5-preview)
+
+完整解压后打开 `Spellgarden.exe`，无需 Unreal 编辑器。包含第一人称四区探索、法术与脚下魔法阵、装备成长、天赋、制作、委托和家园；按 M 创建/加入同局域网或虚拟局域网房间，最多四人。
+
+独立 Windows 包已通过战斗 18、成长 30、主机 21 与客机 16 项原生检查。联机验证使用同机两个独立进程，尚未验证跨电脑公网或四人压力。
+
+这是引擎迁移预览：完整骨骼动作、动态水面植被和学院休眠守护者剧情触发仍待完善；Godot 存档不自动转入 UE，客机成长仅限当前房间。没有公网大厅或中继服务。下方 Godot v0.6.0 的功能说明仅对应原版本。
+
+![UE5 独立包学院实景](https://github.com/chuanyu657-ship-it/spellgarden/releases/download/v0.7.0-ue5-preview/UE5-Academy.png)
+
+---
+
+## Godot v0.6.0 · 星蚀远征
 
 **星蚀远征：探索故事，组队下本，带回新的魔法装备。**
 
@@ -61,3 +79,4 @@
 美术为本项目自有制作，Witchbrook 仅作氛围参考，未使用其游戏素材。引擎及附带运行库许可见游戏包。
 
 正式 Windows EXE 的 Vulkan 展示与 OpenGL 兼容运行均通过。已无需登录重新下载公开 ZIP，检查 CRC、全部文件 SHA-256，并从全新解压目录运行 EXE 冒烟，全部通过。
+
